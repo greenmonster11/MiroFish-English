@@ -1016,3 +1016,47 @@ def get_graph_statistics_tool():
             "error": str(e),
             "traceback": traceback.format_exc()
         }), 500
+
+
+# ============== PDF Download API ==============
+
+@report_bp.route('/<report_id>/pdf', methods=['GET'])
+def download_report_pdf(report_id: str):
+    """
+    Download the report as a styled PDF.
+
+    If the PDF hasn't been generated yet, generates it on the fly.
+
+    Returns:
+        The PDF file as an attachment download.
+    """
+    try:
+        report_folder = ReportManager._get_report_folder(report_id)
+        pdf_path = os.path.join(report_folder, "report.pdf")
+
+        # Generate PDF if it doesn't exist yet
+        if not os.path.exists(pdf_path):
+            md_path = os.path.join(report_folder, "full_report.md")
+            if not os.path.exists(md_path):
+                return jsonify({
+                    "success": False,
+                    "error": "Report not found or not yet completed"
+                }), 404
+
+            from ..services.pdf_generator import generate_pdf
+            pdf_path = generate_pdf(report_folder)
+
+        return send_file(
+            pdf_path,
+            mimetype='application/pdf',
+            as_attachment=True,
+            download_name=f'MiroFish_Report_{report_id}.pdf'
+        )
+
+    except Exception as e:
+        logger.error(f"Failed to download PDF: {str(e)}")
+        return jsonify({
+            "success": False,
+            "error": str(e),
+            "traceback": traceback.format_exc()
+        }), 500

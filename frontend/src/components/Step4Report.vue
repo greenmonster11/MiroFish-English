@@ -10,6 +10,20 @@
             <div class="report-meta">
               <span class="report-tag">Prediction Report</span>
               <span class="report-id">ID: {{ reportId || 'REF-2024-X92' }}</span>
+              <a
+                v-if="reportId && isReportComplete"
+                :href="`/api/report/${reportId}/pdf`"
+                class="pdf-download-btn"
+                target="_blank"
+                title="Download as PDF"
+              >
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                  <polyline points="7 10 12 15 17 10"/>
+                  <line x1="12" y1="15" x2="12" y2="3"/>
+                </svg>
+                Download PDF
+              </a>
             </div>
             <h1 class="main-title">{{ reportOutline.title }}</h1>
             <p class="sub-title">{{ reportOutline.summary }}</p>
@@ -423,6 +437,7 @@ const expandedContent = ref(new Set())
 const expandedLogs = ref(new Set())
 const collapsedSections = ref(new Set())
 const isComplete = ref(false)
+const isReportComplete = computed(() => isComplete.value)
 const startTime = ref(null)
 const leftPanel = ref(null)
 const rightPanel = ref(null)
@@ -2362,6 +2377,28 @@ watch(() => props.reportId, (newId) => {
   align-items: center;
   gap: 12px;
   margin-bottom: 24px;
+}
+
+.pdf-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  padding: 6px 14px;
+  background: #1a73e8;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+.pdf-download-btn:hover {
+  background: #1557b0;
+}
+.pdf-download-btn svg {
+  flex-shrink: 0;
 }
 
 .report-tag {

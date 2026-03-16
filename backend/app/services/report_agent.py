@@ -1729,11 +1729,36 @@ class ReportAgent:
                 report_id, "completed", 100, "Report generation completed",
                 completed_sections=completed_section_titles
             )
-            
+
             if progress_callback:
                 progress_callback("completed", 100, "Report generation completed")
-            
+
             logger.info(f"Report generation completed: {report_id}")
+
+            # Auto-generate PDF
+            try:
+                from .pdf_generator import generate_pdf
+                report_folder = ReportManager._get_report_folder(report_id)
+                # Gather simulation stats if available
+                sim_stats = None
+                if hasattr(self, '_simulation_id') and self._simulation_id:
+                    try:
+                        from ..services.simulation_runner import SimulationRunner
+                        run_state = SimulationRunner.get_run_status(self._simulation_id)
+                        if run_state:
+                            sim_stats = {
+                                'total_actions': run_state.get('total_actions_count', 0),
+                                'twitter_actions': run_state.get('twitter_actions_count', 0),
+                                'reddit_actions': run_state.get('reddit_actions_count', 0),
+                                'total_rounds': run_state.get('total_rounds', 0),
+                                'model_name': Config.LLM_MODEL_NAME or 'GPT-4o-mini',
+                            }
+                    except Exception:
+                        pass
+                pdf_path = generate_pdf(report_folder, simulation_stats=sim_stats)
+                logger.info(f"PDF report auto-generated: {pdf_path}")
+            except Exception as pdf_err:
+                logger.warning(f"PDF generation failed (non-critical): {pdf_err}")
 
             # Close console logger
             if self.console_logger:

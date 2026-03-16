@@ -1,0 +1,13 @@
+services:
+  mirofish:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    container_name: mirofish
+    env_file:
+      - .env
+    ports:
+      - "80:80"
+    restart: unless-stopped
+    volumes:
+      - ./backend/uploads:/app/backend/uploads
