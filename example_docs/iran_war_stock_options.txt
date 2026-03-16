@@ -1,0 +1,127 @@
+U.S.-Israel War on Iran: Market Crisis and Options Trading (March 2026)
+
+=== SITUATION OVERVIEW ===
+
+The United States and Israel launched a joint military campaign against Iran on February 28, 2026. The conflict has rapidly escalated, with Iran's Islamic Revolutionary Guard Corps (IRGC) effectively closing the Strait of Hormuz — through which 20% of the world's oil supply transits. Iran's new Supreme Leader has declared the strait should "remain shut" and warned that "not one litre of oil" will pass through. Vessels linked to the U.S., Israel, or their allies are considered "legitimate targets."
+
+The IEA released 400 million barrels from emergency reserves — the largest release in history — but the impact on oil prices has been limited. Iran's IRGC has warned to "expect oil at $200 per barrel" if attacks on its energy infrastructure continue.
+
+=== CURRENT MARKET DATA (as of Friday March 13, 2026) ===
+
+SPY (SPDR S&P 500 ETF Trust):
+- Close: $662.29 (2026 low, broke below 200-day moving average)
+- 52-week high: $697.84
+- 4 consecutive days of decline, down ~4.45% from Feb 25 pivot high
+- Technical: Bearish — sell signals on short and long-term MAs, MACD bearish, RSI below 30 (oversold)
+- S&P 500 index: 6,672.62 (-1.5% on the day)
+- Market breadth: 9 of 11 sectors negative
+
+VIX (CBOE Volatility Index):
+- Current: 28.4 (surged 24% in one week, highest in months)
+- Institutional traders have shifted from "buying the dip" to aggressive defensive positioning
+
+Oil Prices:
+- Brent crude: $101.13/barrel (above $100)
+- WTI: ~$94/barrel
+- WTI saw an intraday peak of $119.48 during a single-session 12% spike
+- Strait of Hormuz closure has removed ~20% of global oil flows
+
+=== KEY ECONOMIC DATA (Stagflation Warning) ===
+
+- February Non-Farm Payroll: LOST 92,000 jobs (vs expectations of +50,000 to +70,000)
+- Unemployment: 4.4% and rising
+- JOLTS job openings: 6.54 million (lowest in years)
+- Core PCE inflation: 3.1% (stubbornly high)
+- Q4 2025 GDP: 0.7% annualized (revised down)
+- Consumer sentiment (U of Michigan): 55.5, expectations down 4.4%
+- One-year inflation outlook: 3.4%
+- The combination of job losses (recessionary) + $100 oil (inflationary) = classic stagflation setup reminiscent of the 1970s
+
+=== PRIMARY CATALYST: FOMC MEETING MARCH 17-18 ===
+
+- Policy announcement: Wednesday March 18, 2:00 PM ET
+- Expected decision: HOLD at 3.50%–3.75% (99% probability priced in)
+- Rate cut probability: March 5%, April 23%, June 60%
+- Key risk: Hawkish dot plot — upward inflation revisions, downward GDP revisions
+- The Fed is trapped: weak jobs data normally triggers cuts, but oil-driven inflation makes cuts problematic
+- Watch: Updated Summary of Economic Projections (SEP) and Powell presser at 2:30 PM ET
+- Analysts say hopes for a near-term rate cut are dead
+
+=== SECONDARY CATALYST: NVIDIA GTC CONFERENCE MARCH 16-19 ===
+
+- NVDA closed at $180.25 on March 13 (-1.58%)
+- Jensen Huang keynote: Monday March 16, 11:00 AM PT
+- Potential bullish offset to broad market pressure
+- Analyst targets: Truist $283 (55% upside), Tigress $360 (97% upside)
+- 38 Buy ratings, 1 Hold, average target $273.61
+- Focus on Blackwell and Vera Rubin AI chip announcements
+- Oracle rose 9.2% on AI cloud demand earnings beat, suggesting AI spending still strong
+
+=== SECTOR PERFORMANCE ===
+
+Winners:
+- Energy refiners: Marathon Petroleum +11.6%, Valero Energy +9.8%
+- Defense stocks: elevated on war spending
+- Hard assets and high-dividend energy stocks seeing institutional inflows
+
+Losers:
+- Consumer Staples and Real Estate leading declines
+- Semiconductors: TSMC falling on geopolitical/supply chain fears
+- Consumer Discretionary: Brown-Forman -12%, PPG Industries -13%
+- Financials: BlackRock -7.1% (withdrawal restrictions on private credit), Jefferies -13.5%
+- Tech: "AI fatigue" rotation continues
+
+=== SUPPORT / RESISTANCE ===
+
+SPY Resistance: $673.42, $685.33
+SPY Support: No strong accumulated volume support below current level
+Expected daily range Monday: $657.54 – $667.04
+Key S&P 500 support: 6,500 if oil stays elevated + labor stays weak
+
+=== TRADE THESIS: SPY PUT PLAY ===
+
+Direction: Bearish
+Instrument: SPY puts
+Entry: Before Wednesday March 18, 2:00 PM ET (FOMC announcement)
+Target expiry: Friday March 21, 2026
+Suggested strike zone: $655–$660 puts (near or slightly OTM)
+Thesis: FOMC hawkish surprise (upward inflation projections) + ongoing Iran oil shock reinforces the stagflation narrative, pushing SPY below recent lows. Wealth managers are already "selling the rip" instead of "buying the dip."
+Key invalidation: Ceasefire signals from Iran / Hormuz reopens, OR Powell delivers unexpectedly dovish tone
+Risk: NVDA GTC keynote Monday could spark a tech rally that offsets macro fear temporarily
+
+=== KEY ACTORS FOR SIMULATION ===
+
+1. RETAIL DAY TRADERS — Active on Robinhood/E*TRADE, trading SPY 0DTE options, high conviction on directional bets, YOLO mentality. Some loading puts, others trying to bottom-fish calls.
+
+2. HEDGE FUND PORTFOLIO MANAGERS — Shifting portfolios toward hard assets and high-dividend energy stocks while trimming high-beta tech. Defensive positioning. Using SPY and QQQ puts as portfolio hedges.
+
+3. DEFENSE INDUSTRY ANALYSTS — Covering Lockheed Martin (LMT), RTX, Northrop Grumman (NOC). Bullish thesis: war spending increases. Debating whether defense names are already priced in or have more room.
+
+4. ENERGY SECTOR TRADERS — Long crude oil futures, buying XLE calls, debating whether oil hits $120 or retreats if ceasefire materializes. Marathon Petroleum and Valero as top picks.
+
+5. MACRO/RATES STRATEGISTS — Focused on the FOMC decision, stagflation dynamics, yield curve implications. Arguing the Fed is trapped between cutting (jobs) and holding (inflation).
+
+6. TECH BULLS / AI INVESTORS — Still bullish on NVDA ahead of GTC. Arguing AI spending is secular, not cyclical. Oracle earnings prove the theme. Watching for Blackwell/Rubin chip announcements as catalyst.
+
+7. RISK-AVERSE RETIREES — Worried about 401k losses. Asking about protective puts, Treasury bonds, and cash positions. Consumer sentiment at 55.5 reflects their anxiety.
+
+8. CRYPTO ENTHUSIASTS — Arguing Bitcoin is the ultimate hedge against geopolitical chaos and dollar debasement. Pointing to gold's rise as validation of hard-asset thesis.
+
+9. GEOPOLITICAL ANALYSTS — Former military/intelligence, providing commentary on war trajectory, Hormuz timeline, ceasefire probability. Their assessments move markets.
+
+10. ANTI-WAR ACTIVISTS — Calling for divestment from defense stocks, criticizing those profiting from conflict. Arguing the war is driving inflation that hurts working people most.
+
+=== SOCIAL MEDIA DISCUSSION TOPICS ===
+
+- "SPY puts before FOMC — free money or trap?" — debate over timing the announcement
+- "Oil to $120 or $200?" — Iran's IRGC threat vs IEA reserve release
+- "Is this 1970s stagflation?" — macro bears vs optimists
+- "NVDA GTC save the market?" — can AI hype offset war fear?
+- "Sell everything" vs "buy oversold bounce" — competing strategies
+- Options strategies: bear put spreads on SPY, bull call spreads on XLE, straddles around FOMC
+- "The Fed is trapped" — heated debate on what Powell should do
+- Defense stock valuations: "LMT to $700?" vs "already priced in"
+- Marathon Petroleum +11.6% — "energy is the only safe sector"
+- Ethical debates: "Should you profit from war?"
+- Impact on gas prices, groceries, and everyday Americans
+- BlackRock restricting withdrawals — "is this the start of a liquidity crisis?"
